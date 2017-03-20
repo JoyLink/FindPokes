@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38286BB33C2C2FB0C04ED4DE /* Pods_FindPokes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB624B4AC18DDE23256947F /* Pods_FindPokes.framework */; };
+		702732EC1E7E4E6000800DF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702732EB1E7E4E6000800DF9 /* AppDelegate.swift */; };
+		702732EE1E7E4E6000800DF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702732ED1E7E4E6000800DF9 /* ViewController.swift */; };
+		702732F11E7E4E6000800DF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702732EF1E7E4E6000800DF9 /* Main.storyboard */; };
+		702732F31E7E4E6000800DF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 702732F21E7E4E6000800DF9 /* Assets.xcassets */; };
+		702732F61E7E4E6000800DF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702732F41E7E4E6000800DF9 /* LaunchScreen.storyboard */; };
+		702732FE1E7E4EAB00800DF9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 702732FD1E7E4EAB00800DF9 /* GoogleService-Info.plist */; };
+		702733111E7F698800800DF9 /* GeoFire.m in Sources */ = {isa = PBXBuildFile; fileRef = 702733081E7F698800800DF9 /* GeoFire.m */; };
+		702733121E7F698800800DF9 /* GFBase32Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7027330A1E7F698800800DF9 /* GFBase32Utils.m */; };
+		702733131E7F698800800DF9 /* GFGeoHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 7027330C1E7F698800800DF9 /* GFGeoHash.m */; };
+		702733141E7F698800800DF9 /* GFGeoHashQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 7027330E1E7F698800800DF9 /* GFGeoHashQuery.m */; };
+		702733151E7F698800800DF9 /* GFQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 702733101E7F698800800DF9 /* GFQuery.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F83569C0E7E8C8378B06E0D /* Pods-FindPokes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindPokes.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindPokes/Pods-FindPokes.release.xcconfig"; sourceTree = "<group>"; };
+		702732E81E7E4E6000800DF9 /* FindPokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindPokes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		702732EB1E7E4E6000800DF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		702732ED1E7E4E6000800DF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		702732F01E7E4E6000800DF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		702732F21E7E4E6000800DF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		702732F51E7E4E6000800DF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		702732F71E7E4E6000800DF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		702732FD1E7E4EAB00800DF9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		702733011E7F698800800DF9 /* GeoFire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoFire.h; sourceTree = "<group>"; };
+		702733021E7F698800800DF9 /* GFCircleQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFCircleQuery.h; sourceTree = "<group>"; };
+		702733031E7F698800800DF9 /* GFQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFQuery.h; sourceTree = "<group>"; };
+		702733041E7F698800800DF9 /* GFRegionQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFRegionQuery.h; sourceTree = "<group>"; };
+		702733051E7F698800800DF9 /* GeoFire-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeoFire-Prefix.pch"; sourceTree = "<group>"; };
+		702733071E7F698800800DF9 /* GeoFire+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeoFire+Private.h"; sourceTree = "<group>"; };
+		702733081E7F698800800DF9 /* GeoFire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoFire.m; sourceTree = "<group>"; };
+		702733091E7F698800800DF9 /* GFBase32Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFBase32Utils.h; sourceTree = "<group>"; };
+		7027330A1E7F698800800DF9 /* GFBase32Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFBase32Utils.m; sourceTree = "<group>"; };
+		7027330B1E7F698800800DF9 /* GFGeoHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFGeoHash.h; sourceTree = "<group>"; };
+		7027330C1E7F698800800DF9 /* GFGeoHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGeoHash.m; sourceTree = "<group>"; };
+		7027330D1E7F698800800DF9 /* GFGeoHashQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFGeoHashQuery.h; sourceTree = "<group>"; };
+		7027330E1E7F698800800DF9 /* GFGeoHashQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGeoHashQuery.m; sourceTree = "<group>"; };
+		7027330F1E7F698800800DF9 /* GFQuery+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GFQuery+Private.h"; sourceTree = "<group>"; };
+		702733101E7F698800800DF9 /* GFQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFQuery.m; sourceTree = "<group>"; };
+		702733191E7F6AE400800DF9 /* FindPokes-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FindPokes-Bridging-Header.h"; sourceTree = "<group>"; };
+		EAB624B4AC18DDE23256947F /* Pods_FindPokes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindPokes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0C963721D207E3C5D29DF17 /* Pods-FindPokes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindPokes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindPokes/Pods-FindPokes.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		702732E51E7E4E6000800DF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38286BB33C2C2FB0C04ED4DE /* Pods_FindPokes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		702732DF1E7E4E6000800DF9 = {
+			isa = PBXGroup;
+			children = (
+				702732EA1E7E4E6000800DF9 /* FindPokes */,
+				702732E91E7E4E6000800DF9 /* Products */,
+				D06439A1CB4D0B1B1FBDE845 /* Pods */,
+				B84B91D9C622503CF3B1C134 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		702732E91E7E4E6000800DF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				702732E81E7E4E6000800DF9 /* FindPokes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		702732EA1E7E4E6000800DF9 /* FindPokes */ = {
+			isa = PBXGroup;
+			children = (
+				702732FF1E7F698800800DF9 /* GeoFire */,
+				702732FD1E7E4EAB00800DF9 /* GoogleService-Info.plist */,
+				702732EB1E7E4E6000800DF9 /* AppDelegate.swift */,
+				702732ED1E7E4E6000800DF9 /* ViewController.swift */,
+				702732EF1E7E4E6000800DF9 /* Main.storyboard */,
+				702732F21E7E4E6000800DF9 /* Assets.xcassets */,
+				702732F41E7E4E6000800DF9 /* LaunchScreen.storyboard */,
+				702732F71E7E4E6000800DF9 /* Info.plist */,
+				702733191E7F6AE400800DF9 /* FindPokes-Bridging-Header.h */,
+			);
+			path = FindPokes;
+			sourceTree = "<group>";
+		};
+		702732FF1E7F698800800DF9 /* GeoFire */ = {
+			isa = PBXGroup;
+			children = (
+				702733001E7F698800800DF9 /* API */,
+				702733051E7F698800800DF9 /* GeoFire-Prefix.pch */,
+				702733061E7F698800800DF9 /* Implementation */,
+			);
+			path = GeoFire;
+			sourceTree = "<group>";
+		};
+		702733001E7F698800800DF9 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				702733011E7F698800800DF9 /* GeoFire.h */,
+				702733021E7F698800800DF9 /* GFCircleQuery.h */,
+				702733031E7F698800800DF9 /* GFQuery.h */,
+				702733041E7F698800800DF9 /* GFRegionQuery.h */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		702733061E7F698800800DF9 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				702733071E7F698800800DF9 /* GeoFire+Private.h */,
+				702733081E7F698800800DF9 /* GeoFire.m */,
+				702733091E7F698800800DF9 /* GFBase32Utils.h */,
+				7027330A1E7F698800800DF9 /* GFBase32Utils.m */,
+				7027330B1E7F698800800DF9 /* GFGeoHash.h */,
+				7027330C1E7F698800800DF9 /* GFGeoHash.m */,
+				7027330D1E7F698800800DF9 /* GFGeoHashQuery.h */,
+				7027330E1E7F698800800DF9 /* GFGeoHashQuery.m */,
+				7027330F1E7F698800800DF9 /* GFQuery+Private.h */,
+				702733101E7F698800800DF9 /* GFQuery.m */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		B84B91D9C622503CF3B1C134 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAB624B4AC18DDE23256947F /* Pods_FindPokes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D06439A1CB4D0B1B1FBDE845 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0C963721D207E3C5D29DF17 /* Pods-FindPokes.debug.xcconfig */,
+				4F83569C0E7E8C8378B06E0D /* Pods-FindPokes.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		702732E71E7E4E6000800DF9 /* FindPokes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 702732FA1E7E4E6000800DF9 /* Build configuration list for PBXNativeTarget "FindPokes" */;
+			buildPhases = (
+				A5B8BFA81B131E275F79816B /* 📦 Check Pods Manifest.lock */,
+				702732E41E7E4E6000800DF9 /* Sources */,
+				702732E51E7E4E6000800DF9 /* Frameworks */,
+				702732E61E7E4E6000800DF9 /* Resources */,
+				174AF56E6FB19A4264CF7D15 /* 📦 Embed Pods Frameworks */,
+				CC4861AA31293D6D4F47FB4F /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindPokes;
+			productName = FindPokes;
+			productReference = 702732E81E7E4E6000800DF9 /* FindPokes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		702732E01E7E4E6000800DF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = me;
+				TargetAttributes = {
+					702732E71E7E4E6000800DF9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5GKJXKA9NC;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 702732E31E7E4E6000800DF9 /* Build configuration list for PBXProject "FindPokes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 702732DF1E7E4E6000800DF9;
+			productRefGroup = 702732E91E7E4E6000800DF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				702732E71E7E4E6000800DF9 /* FindPokes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		702732E61E7E4E6000800DF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				702732F61E7E4E6000800DF9 /* LaunchScreen.storyboard in Resources */,
+				702732FE1E7E4EAB00800DF9 /* GoogleService-Info.plist in Resources */,
+				702732F31E7E4E6000800DF9 /* Assets.xcassets in Resources */,
+				702732F11E7E4E6000800DF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		174AF56E6FB19A4264CF7D15 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindPokes/Pods-FindPokes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5B8BFA81B131E275F79816B /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CC4861AA31293D6D4F47FB4F /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindPokes/Pods-FindPokes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		702732E41E7E4E6000800DF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				702733121E7F698800800DF9 /* GFBase32Utils.m in Sources */,
+				702732EE1E7E4E6000800DF9 /* ViewController.swift in Sources */,
+				702733131E7F698800800DF9 /* GFGeoHash.m in Sources */,
+				702732EC1E7E4E6000800DF9 /* AppDelegate.swift in Sources */,
+				702733111E7F698800800DF9 /* GeoFire.m in Sources */,
+				702733141E7F698800800DF9 /* GFGeoHashQuery.m in Sources */,
+				702733151E7F698800800DF9 /* GFQuery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		702732EF1E7E4E6000800DF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				702732F01E7E4E6000800DF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		702732F41E7E4E6000800DF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				702732F51E7E4E6000800DF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		702732F81E7E4E6000800DF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		702732F91E7E4E6000800DF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		702732FB1E7E4E6000800DF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0C963721D207E3C5D29DF17 /* Pods-FindPokes.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5GKJXKA9NC;
+				INFOPLIST_FILE = FindPokes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.FindPokes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FindPokes/FindPokes-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		702732FC1E7E4E6000800DF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F83569C0E7E8C8378B06E0D /* Pods-FindPokes.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5GKJXKA9NC;
+				INFOPLIST_FILE = FindPokes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.FindPokes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FindPokes/FindPokes-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		702732E31E7E4E6000800DF9 /* Build configuration list for PBXProject "FindPokes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				702732F81E7E4E6000800DF9 /* Debug */,
+				702732F91E7E4E6000800DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		702732FA1E7E4E6000800DF9 /* Build configuration list for PBXNativeTarget "FindPokes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				702732FB1E7E4E6000800DF9 /* Debug */,
+				702732FC1E7E4E6000800DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 702732E01E7E4E6000800DF9 /* Project object */;
+}

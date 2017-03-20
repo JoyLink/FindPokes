@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>847165156395-b95v4h9usmrr0n9kq1sl6fis63h9k3dm.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.847165156395-b95v4h9usmrr0n9kq1sl6fis63h9k3dm</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAdr_2bSgtsbfncmBVdm4Kd4a4G9z8lngY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>847165156395</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>me.FindPokes</string>
+	<key>PROJECT_ID</key>
+	<string>findpokes-b5d7e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>findpokes-b5d7e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:847165156395:ios:d9b6498987d6aceb</string>
+	<key>DATABASE_URL</key>
+	<string>https://findpokes-b5d7e.firebaseio.com</string>
+</dict>
+</plist>
